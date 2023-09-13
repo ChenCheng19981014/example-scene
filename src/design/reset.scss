@@ -1,0 +1,24 @@
+// 重置样式
+
+// 滚动轴重置
+* ::-webkit-scrollbar {
+  width: 2px;
+}
+
+* ::-webkit-scrollbar-thumb {
+  background: rgb(230, 230, 230);
+}
+// ​定义右下角拖动块的样式
+* ::-webkit-resizer {
+  width: 0;
+  height: 0;
+}
+// 内嵌滑块
+* ::-webkit-scrollbar-thumb {
+  background: rgb(230, 230, 230);
+}
+// 边角
+* ::-webkit-scrollbar-corner {
+  width: 0;
+  height: 0;
+}

@@ -1,0 +1,91 @@
+//全局公共样式
+
+//字体配置
+@font-face {
+  font-family: "dina";
+  src: url("./font/DINCond-Medium.otf");
+}
+
+@font-face {
+  font-family: "d-din";
+  src: url("./font/D-DIN.otf");
+}
+
+@font-face {
+  font-family: "souce-han-sans-cn";
+  src: url("./font/SourceHanSansCN-Normal.otf");
+}
+
+@font-face {
+  font-family: "source";
+  src: url("./font/SourceHanSansCN-Regular.otf");
+}
+
+@font-face {
+  font-family: "pm";
+  src: url("./font/pm.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "source";
+  box-sizing: border-box;
+}
+.a-left {
+  animation: leftIn 1s ease 0s 1 normal forwards;
+}
+.a-right {
+  animation: rightIn 1s ease 0s 1 normal forwards;
+}
+.a-r-left {
+  animation: leftOut 0.6s ease 0s 1 normal forwards;
+}
+.a-r-right {
+  animation: rightOut 0.6s ease 0s 1 normal forwards;
+}
+@keyframes leftIn {
+  from {
+    left: -500px;
+  }
+  to {
+    left: 20px;
+  }
+}
+@keyframes leftOut {
+  from {
+    left: 20px;
+  }
+  to {
+    left: -500px;
+  }
+}
+
+@keyframes rightIn {
+  from {
+    right: -500px;
+  }
+  to {
+    right: 20px;
+  }
+}
+@keyframes rightOut {
+  from {
+    right: 20px;
+  }
+  to {
+    right: -500px;
+  }
+}
+
+
+.nb{
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  // background: red;
+  opacity: 0.5;
+  right:40px;
+  cursor: pointer;
+  pointer-events: all;
+}
